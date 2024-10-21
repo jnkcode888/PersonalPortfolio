@@ -137,6 +137,7 @@ section {
     flex: 1;
     max-width: 40%;
     text-align: right;
+    margin-top: 6rem;
 }
 
 .home-img img {
