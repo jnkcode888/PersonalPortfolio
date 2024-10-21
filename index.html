@@ -150,14 +150,18 @@
         <script>
             document.getElementById('contactForm').addEventListener('submit', function(event) {
                 event.preventDefault(); // Prevent form from submitting the default way
-                
-                // Display the message sent confirmation
-                document.getElementById('msg').innerText = "Message Sent!";
-                
+        
+                // Display the message sent confirmation with increased font size and light blue color
+                var msgElement = document.getElementById('msg');
+                msgElement.innerText = "Message Sent!";
+                msgElement.style.fontSize = "24px"; // Increase font size
+                msgElement.style.color = "#ADD8E6"; // Set text color to light blue (you can adjust this as needed)
+        
                 // Optionally, clear the form fields after submission
                 document.getElementById('contactForm').reset();
             });
         </script>
+        
         
 
         <footer class="footer">
