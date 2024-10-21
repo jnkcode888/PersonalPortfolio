@@ -138,13 +138,14 @@ section {
 }
 
 .home-content {
-    padding-right: 2rem;
+    padding-right: 4rem;
 }
 
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .home-content h3:nth-of-type(2) {
@@ -152,7 +153,7 @@ section {
 }
 
 .home-content h1 {
-    font-size: 5.6rem;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.3;
     margin-bottom: 1rem;
@@ -165,7 +166,7 @@ span {
 .multiple-text {
     position: relative;
     display: inline-block;
-    margin-left: 0.5rem;
+    margin-left: 1.5rem;
 }
 
 .home {
@@ -180,16 +181,12 @@ span {
 
 .home-content {
    flex: 1;
-   max-width: 50%;
+   max-width: 70%;
    padding-right: 2rem;
    z-index: 1;
 }
 
-.home-content h3 {
-   font-size: 3.2rem;
-   font-weight: 700;
-   margin-bottom: 1rem;
-}
+
 
 .home-content h1 {
    font-size: 5.6rem;
@@ -319,13 +316,16 @@ span {
     gap: 2rem;
     background: var(--second-bg-color);
     background-image: url('myproject/image/tech14.png');
-    background-size: 50%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: none;
+    background-attachment: scroll;
+    
     
     
 }
+.
+
 
 .about-img img {
     width: 35rem;
@@ -353,7 +353,7 @@ span {
 /* Services Section Styles */
 .services{
    background-image: url('myproject/image/tech.jpg');
-   background-size: 50%;
+   background-size: 100%;
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: none;
@@ -486,7 +486,7 @@ span {
 /* Contact Section Styles */
 .contact{
    background-image: url('myproject/image/tech13.png');
-   background-size: 50%;
+   background-size: 100%;
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: none;
